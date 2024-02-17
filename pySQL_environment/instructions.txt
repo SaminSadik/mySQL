@@ -1,0 +1,20 @@
+1. Open CMD as administrator
+
+2. Run the Commands in following format to open file location,
+	E:
+	CD \Coding\mySQL
+
+** The enviornment was created with the command,
+	python -m venv pySQL_environment
+
+3. Access the environment using the command,
+	.\pySQL_environment\Scripts\activate
+
+** Required packages were installed with the command,
+	pip install mysql-connector-python
+
+4. Run python files for mySQL in this environment in following command format,
+	python .\pythonSQL.py
+	
+5. After the work is done, get out of the environment using the command,
+	deactivate
